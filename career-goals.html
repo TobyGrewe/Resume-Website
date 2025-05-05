@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Toby Grewe Career Goals</title>
+        <link rel="stylesheet" href="styles.css">
+        <script>
+            document.addEventListener("DOMContentLoaded", function() {
+                document.getElementById("current-date").textContent = new Date().toDateString();
+                console.log("career goals page loaded");
+            });
+        </script>
+    </head>
+    <body>
+        <header>
+            <h1>Toby Grewe</h1>
+            <p><em>Network Administrator</em></p>
+        </header>
+
+        <nav>
+            <ul>
+                <li><a href="resume.html">Resume</a></li>
+                <li><a href="cover-letter.html">Cover Letter</a></li>
+                <li><a href="career-goals.html" class="active">Career Goals</a></li> 
+            </ul>
+        </nav>
+
+        <main>
+            <section id="career-goals">
+                <h2>Career Goals</h2>
+                <p>My career goals include:</p>
+                <ul>
+                    <li>To become a certified Network Engineer within the next two years.</li>
+        
+                    <li>To lead a team of IT professionals in a challenging and dynamic environment.</li>
+                    <li>To continuously improve my skills and knowledge in the field of networking and cybersecurity.</li>
+                    
+                </ul>
+                <img src="images/network-engineer.jpg" alt="Network Engineer" width="300" height="200">
+                <audio controls>
+                    <source src="audio/career-goals.mp3" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>
+                <video controls width="300" height="200">
+                    <source src="video/career-goals.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </section>
+            <section id="contact">
+                    <h2>Contact Me</h2>
+                    <form action="https://wp.zybooks.com/form-viewer.php" method="post">
+                        <label for="fname">First Name:</label>
+                        <input type="text" id="fname" name="fname" required><br><br>
+                        <label for="lname">Last Name:</label>
+                        <input type="text" id="lname" name="lname" required><br><br>
+                        <label for="company">Company Name:</label>
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required><br><br>
+                        <label for="phone">Phone Number:</label>
+                        <input type="tel" id="phone" name="phone" required><br><br>
+                        <label for="message">Message:</label><br>
+                        <textarea id="message" name="message" rows="4" cols="50"></textarea><br><br>
+                    
+                        <p>Best Contact Time</p>
+                        <input type="radio" id="morning" name="contact-time" value="morning">
+                        <label for="morning">Morning</label><br>
+                        <input type="radio" id="afternoon" name="contact-time" value="afternoon">
+                        <label for="afternoon">Afternoon</label><br>    
+                        <label for="anytime">Anytime</label>
+                        <input type="radio" id="anytime" name="contact-time" value="anytime"><br><br>  
+                        <label for="contact-method">Preferred Contact Method:</label><br>
+                        <select id="contact-method" name="contact-method">
+                            <option value="email">Email</option>
+                            <option value="phone">Phone</option>
+                            <option value="text">Text</option>
+                            </select><br><br>
+
+                            <input type="submit" value="Submit">
+                    </form>
+
+            </section>
+        </main>
+
+        <footer>
+            <p>&copy; 2025 Toby Grewe. All rights reserved.</p>
+        </footer>
+    </body>
+</html>

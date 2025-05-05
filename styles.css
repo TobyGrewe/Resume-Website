@@ -1,0 +1,101 @@
+/* style.css */
+
+
+/* Active link Highlight Effect */
+.active{
+    font-weight: bold;
+    color: rgb(49, 147, 207);
+}
+/* applies to all elements */
+{
+    margin: 10;
+    padding: 5;     
+    box-sizing: border-box;
+}
+
+/*elemnt selector*/
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333;
+    background-color: #f4f4f4; 
+    padding-bottom: 50px; /* prevent clashing with footer */
+}
+/* class selector - all elements with class "highlight" */
+.highlight {
+    background-color: rgb(168, 7, 7);
+    font-weight: bold;
+}
+/* ID selector - Element with ID "Career-Goals" */
+#career-goals {
+    color: #333;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+}
+/*descedant selector - applies to <a> elements inside <nav> */
+nav a {
+    color: #333;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: inline-block;
+}
+/*pseudo-class selector - applies to links inside <nav> when hovered */ 
+a:hover {
+    background-color: #941c1c;
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: underline;
+    
+}
+/* font color style for h1 + h2 elements */
+h1, h2 {
+    color: #26202d;
+    text-align: center;
+    margin-top: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin: 20px 0;
+    text-align: justify;
+    color: rgb(0, 0, 0);
+}
+/* color for headers */
+header {
+    background-color: #ffffff;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+/* padding, margins, and padding for sections */
+section {
+    padding: 15px;
+    margin: 25px 0;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+/*ul and ol formating */
+ul {
+    list-style-type: square;
+    padding-left: 20px;
+    margin: 10px 0;
+}
+ol {
+    list-style-type: decimal;
+    padding-left: 20px;
+    margin: 10px 0;
+}
+/* footer style */
+footer {
+    background-color: #000000;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    margin-top: 20px;
+}
