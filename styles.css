@@ -82,12 +82,15 @@ ul {
     list-style-type: square;
     padding-left: 20px;
     margin: 10px 0;
+    background-color: rgb(197, 197, 197);
 }
 ol {
     list-style-type: decimal;
     padding-left: 20px;
     margin: 10px 0;
 }
+
+
 /* footer style */
 footer {
     background-color: #035385;
@@ -98,4 +101,9 @@ footer {
     bottom: 0;
     width: 100%;
     margin-top: 20px;
+}
+table {
+    width: 85%;
+    border-collapse: collapse;
+    margin: 20px 0;
 }
